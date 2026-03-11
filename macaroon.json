@@ -1,1 +1,37 @@
-
+[
+ {
+  "name": "Berry Macaroon",
+  "price": 3,
+  "image": "berry.jpg"
+ },
+ {
+  "name": "Candy Macaroon",
+  "price": 3,
+  "image": "candy.jpg"
+ },
+ {
+  "name": "Caramel Macaroon",
+  "price": 3,
+  "image": "caramel.jpg"
+ }
+  {
+  "name": "Chocolate Macaroon",
+  "price": 3,
+  "image": "chocolate.jpg"
+ },
+  {
+  "name": "Orange Macaroon",
+  "price": 3,
+  "image": "orange.jpg"
+ },
+  {
+  "name": "Shop Macaroon",
+  "price": 3,
+  "image": "shop.jpg"
+ },
+  {
+  "name": "Strawberry Macaroon",
+  "price": 3,
+  "image": "strawberry.jpg"
+ },
+]
