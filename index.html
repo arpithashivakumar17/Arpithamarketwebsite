@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arpitha Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Welcome to My Macaroon Shop</h1>
+
+<div id="products"></div>
+
+<script>
+
+fetch('/api/macarons')
+.then(res => res.json())
+.then(data => {
+
+let html = ""
+
+data.forEach(m => {
+
+html += `
+<h2>${m.name}</h2>
+<img src="https://bucket-arpitha-market.s3.ap-southeast-2.amazonaws.com/${m.image}" width="200">
+<p>$${m.price}</p>
+`
+})
+
+document.getElementById("products").innerHTML = html
+
+})
+
+</script>
+
+</body>
+</html>
 
